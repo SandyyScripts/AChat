@@ -1,7 +1,8 @@
 import firebase from "firebase";
+require("dotenv").config();
 
 const firebaseApp = firebase.initializeApp({
-	apiKey: "AIzaSyAC7Zxwfs9UwSwLJMheo1-kKthIJ9EO9qQ",
+	apiKey: process.env.API_KEY,
 	authDomain: "achat-e9841.firebaseapp.com",
 	projectId: "achat-e9841",
 	storageBucket: "achat-e9841.appspot.com",

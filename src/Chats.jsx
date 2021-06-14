@@ -2,13 +2,10 @@ import React from "react";
 import DeleteForeverIcon from "@material-ui/icons/DeleteForever";
 import db from "./firebase";
 import {
-	Avatar,
 	ListItem,
 	List,
 	ListItemAvatar,
-	Button,
 	ListItemText,
-	Modal,
 } from "@material-ui/core";
 
 function Chats(props) {
